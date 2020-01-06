@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controle_empresa.MenuController">
+   <children>
+      <VBox layoutX="121.0" layoutY="237.0" prefHeight="220.0" prefWidth="458.0" spacing="50.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#changePedidos" prefHeight="39.0" prefWidth="524.0" text="Pedidos" />
+            <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="474.0" text="Finanças" />
+            <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="534.0" text="Clientes" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
