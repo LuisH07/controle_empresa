@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controle_empresa.ClientesController">
+   <children>
+      <ImageView fx:id="adicionarPedidos" fitHeight="66.0" fitWidth="70.0" layoutX="609.0" layoutY="408.0" onMouseClicked="#changeAdcCliente" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/sign-add-icon_34367.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

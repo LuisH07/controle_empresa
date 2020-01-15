@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -28,12 +29,22 @@ public class MenuController implements Initializable {
     private Label label;
     
     @FXML
-    private void changePedidos(ActionEvent event) throws IOException {
+    private void changePedidos(Event event) throws IOException {
         Parent pedidosParent = FXMLLoader.load(getClass().getResource("Pedidos.fxml"));
         Scene pedidosScene = new Scene(pedidosParent);
         
         Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
         window.setScene(pedidosScene);
+        window.show();
+    }
+    
+    @FXML
+    private void changeClientes(Event event) throws IOException {
+        Parent clientesParent = FXMLLoader.load(getClass().getResource("Clientes.fxml"));
+        Scene clientesScene = new Scene(clientesParent);
+        
+        Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        window.setScene(clientesScene);
         window.show();
     }
     

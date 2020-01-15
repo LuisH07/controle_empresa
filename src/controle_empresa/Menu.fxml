@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controle_empresa.MenuController">
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle_empresa.MenuController">
    <children>
-      <VBox layoutX="121.0" layoutY="237.0" prefHeight="220.0" prefWidth="458.0" spacing="50.0">
+      <VBox layoutX="121.0" layoutY="250.0" prefHeight="220.0" prefWidth="458.0" spacing="50.0">
          <children>
             <Button mnemonicParsing="false" onAction="#changePedidos" prefHeight="39.0" prefWidth="524.0" text="Pedidos" />
             <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="474.0" text="Finanças" />
-            <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="534.0" text="Clientes" />
+            <Button mnemonicParsing="false" onAction="#changeClientes" prefHeight="39.0" prefWidth="534.0" text="Clientes" />
          </children>
       </VBox>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="275.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/shop-icon_34368.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="40.0" layoutX="649.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/sign-warning-icon_34355.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="40.0" layoutX="649.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/sign-question-icon_34359.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="40.0" layoutX="649.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/wrench-screwdriver-icon_34325.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
