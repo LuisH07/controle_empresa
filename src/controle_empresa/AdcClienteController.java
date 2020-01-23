@@ -6,11 +6,13 @@
 package controle_empresa;
 
 import java.net.URL;
+import java.sql.Connection;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import java.sql.*;
 
 /**
  * FXML Controller class
@@ -38,4 +40,20 @@ public class AdcClienteController implements Initializable {
         // TODO
     }    
     
+    Connection conection;
+    public AdcClienteController(){
+        conection = SqliteConnection.Connector();
+        if(conection == null){
+            System.exit(1); //Colocar um popup de erro
+        }
+    }
+    
+    public boolean isDbConnected(){
+        try{
+            return !conection.isClosed();
+        }catch (SQLException e){
+            e.printStackTrace();
+            return false;
+        }
+    }
 }

@@ -3,11 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/luish/Desktop/Meus%20Arquivos/Projetos/controle_empresa/src/controle_empresa/MenuController.java</file>
-            <file>file:/C:/Users/luish/Desktop/Meus%20Arquivos/Projetos/controle_empresa/src/controle_empresa/PedidosController.java</file>
-            <file>file:/C:/Users/luish/Desktop/Meus%20Arquivos/Projetos/controle_empresa/src/controle_empresa/Controle_empresa.java</file>
-            <file>file:/C:/Users/luish/Desktop/Meus%20Arquivos/Projetos/controle_empresa/src/controle_empresa/ClientesController.java</file>
+            <file>file:/C:/Users/luish/Desktop/Meus%20Arquivos/Projetos/controle_empresa/src/controle_empresa/AdcCliente.fxml</file>
             <file>file:/C:/Users/luish/Desktop/Meus%20Arquivos/Projetos/controle_empresa/src/controle_empresa/AdcClienteController.java</file>
+            <file>file:/C:/Users/luish/Desktop/Meus%20Arquivos/Projetos/controle_empresa/src/controle_empresa/SqliteConnection.java</file>
         </group>
     </open-files>
 </project-private>
